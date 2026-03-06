@@ -3,7 +3,7 @@ cask "anvil" do
   name "anvil"
   desc "CLI and MCP server for the Sable AI voice agent platform"
   homepage "https://github.com/sable-inc/anvil"
-  version "0.2.1"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "anvil" do
   on_macos do
     on_intel do
       url "https://github.com/sable-inc/anvil/releases/download/v#{version}/anvil_#{version}_darwin_amd64.tar.gz"
-      sha256 "e846332b8fe22f61f66132fc806bd4c444d0c8c45e87856588c9c132f97dcb4f"
+      sha256 "a5ef6f81c1b18685562a7b5e314996294d0ad0491b02824b26d2cc1bb5d62f52"
     end
     on_arm do
       url "https://github.com/sable-inc/anvil/releases/download/v#{version}/anvil_#{version}_darwin_arm64.tar.gz"
-      sha256 "0245008083b06862ac9a9b0f92e3244a9f99d53cb3c53ff3a12fdb4aafe43bcc"
+      sha256 "9d4ab16ba73fdd4fa241d44af4360ee7163f49c8b4c1a20c2664aabf8e86f9b1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sable-inc/anvil/releases/download/v#{version}/anvil_#{version}_linux_amd64.tar.gz"
-      sha256 "fccd31b55b9c732b2de04fc3e6ddf25e2a6b2275cba687b2f738d674530800c5"
+      sha256 "f19e1f915f32bafe68d262a6df5beb6159f7bbd38e744ff3d431ce4cec03be3f"
     end
     on_arm do
       url "https://github.com/sable-inc/anvil/releases/download/v#{version}/anvil_#{version}_linux_arm64.tar.gz"
-      sha256 "8fa5b96bdba253d4c9e7bd0c205ff8657c380b6f62cc37d6fbbb1c8799e92297"
+      sha256 "2c479458953a3b096a13d2fcba810eefbc2848748b970f6f3aea620aec81ccdc"
     end
   end
 
